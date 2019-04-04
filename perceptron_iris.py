@@ -33,7 +33,7 @@ class Perceptron(object):
                 
 
 if __name__ == '__main__':
-    iris_labels = ["Iris-setosa", "Iris-virginica", "Iris-Versicolor"]
+    iris_labels = ["Iris-setosa", "Iris-virginica", "Iris-versicolor"]
     random_index = random.randint(0,2)
     del iris_labels[random_index]
 
@@ -62,10 +62,6 @@ if __name__ == '__main__':
     data_size = len(array_data)
     training_data_size = math.ceil(data_size * TRAINING_PERCENTAGE)
     test_data_size = math.floor(data_size * TEST_PERCENTAGE)
-
-    print(data_size)
-    print(training_data_size)
-    print(test_data_size)
 
     training_sample_indexes = set(random.sample(range(0, data_size), training_data_size))
     test_sample_indexes = set(range(0, data_size)) - training_sample_indexes
