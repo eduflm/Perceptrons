@@ -1,5 +1,3 @@
-# perceptron-for-iris
+# Perceptrons
 
-## Perceptron algorithm for iris dataset classification
-
-Numpy is required
+## Perceptron algorithm used to classify some stuff
